@@ -1,0 +1,37 @@
+{
+  "name": "solidity-starter",
+  "version": "1.0.0",
+  "description": "Starter codes for solidity smart contracts project with truffle, ethlint and solidity-prettier",
+  "main": "",
+  "scripts": {
+    "test": "truffle test",
+    "postinstall": "npm run compile-contracts",
+    "compile-contracts": "truffle compile --all",
+    "lint": "solium -d contracts",
+    "prettier": "prettier --write contracts/*.sol"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coinsquare/solidity-starter.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart contract",
+    "starter"
+  ],
+  "author": "Coinsquare",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coinsquare/solidity-starter/issues"
+  },
+  "homepage": "https://github.com/coinsquare/solidity-starter#readme",
+  "dependencies": {
+    "truffle": "^5.0.4"
+  },
+  "devDependencies": {
+    "ethlint": "^1.2.3",
+    "prettier": "^1.16.4",
+    "prettier-plugin-solidity": "^1.0.0-alpha.18"
+  }
+}
