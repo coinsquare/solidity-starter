@@ -5,8 +5,8 @@
   "main": "",
   "scripts": {
     "test": "truffle test",
-    "postinstall": "npm run compile-contracts",
-    "compile-contracts": "truffle compile --all",
+    "postinstall": "npm run compile",
+    "compile": "truffle compile --all",
     "lint": "solium -d contracts",
     "prettier": "prettier --write contracts/*.sol"
   },
