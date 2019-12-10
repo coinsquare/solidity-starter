@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/coinsquare/solidity-starter#readme",
   "dependencies": {
-    "truffle": "^5.0.29"
+    "truffle": "^5.1.3"
   },
   "devDependencies": {
-    "ethlint": "^1.2.4",
-    "prettier": "^1.16.4",
-    "prettier-plugin-solidity": "^1.0.0-alpha.18"
+    "ethlint": "^1.2.5",
+    "prettier": "^1.19.1",
+    "prettier-plugin-solidity": "^1.0.0-alpha.34"
   }
 }
