@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/coinsquare/solidity-starter#readme",
   "dependencies": {
-    "truffle": "^5.1.36"
+    "truffle": "^5.7.1"
   },
   "devDependencies": {
     "ganache-cli": "^6.9.1",
